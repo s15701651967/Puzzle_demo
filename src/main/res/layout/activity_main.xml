@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.puzzle_demo.MainActivity"
+    android:background="@drawable/gamebackground">
+
+    <Button
+        android:text="简单模式"
+        android:textSize="20sp"
+        android:id="@+id/simple"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        />
+    <Button
+        android:text="中等模式"
+        android:textSize="20sp"
+        android:id="@+id/normal"
+        android:layout_below="@+id/simple"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        />
+
+    <Button
+        android:text="困难模式"
+        android:textSize="20sp"
+        android:id="@+id/hard"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/normal"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+         />
+
+</RelativeLayout>
